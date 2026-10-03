@@ -5,3 +5,4 @@ __pycache__/
 .venv/
 myvenv/
 db.sqlite3
+staticfiles/
