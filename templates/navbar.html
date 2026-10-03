@@ -1,0 +1,53 @@
+{% load static %}
+<header>
+    <div class="logo">
+        <img src="{% static 'image/a1.png' %}" alt="Amazon">
+    </div>
+
+    <div class="location">
+        <div class="location-icon">
+            <img src="{% static 'image/location.png' %}" alt="">
+        </div>
+        <div class="location-text">
+            <div class="delivering">Delivering to Dhanbad 826002. </div>
+            <div class="update">Update location</div>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <select>
+            <option>All</option>
+            <option>Electronics</option>
+            <option>Books</option>
+            <option>Fashion</option>
+        </select>
+        <input type="text" class="search_box">
+        <div class="search_icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </div>
+
+    <div class="language">
+        <select>
+            <option>🇮🇳 EN</option>
+            <option>🇬🇧 EN</option>
+            <option>🇺🇸 EN</option>
+        </select>
+    </div>
+
+    <div class="account">
+        <div class="sign_in">
+            <p>Hello, sign-in</p>
+            <p>Account & Lists</p>
+        </div>
+        <div class="order">
+            <p>Returns</p>
+            <p>& Orders</p>
+        </div>
+        <div class="cart_icon">
+            <div class="cart_count">0</div>
+            <div class="cart_emoji">🛒</div>
+            <div class="cart_text">Cart</div>
+        </div>
+    </div>
+</header>

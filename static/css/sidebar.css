@@ -1,0 +1,75 @@
+.Sign_in_box {
+    position: fixed;
+    top: 0;
+    left: -400px;
+    width: 350px;
+    height: 100vh;
+    background-color: white;
+    transition: left 0.3s linear;
+    z-index: 10;
+}
+
+.icon-box-sign-in {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 50px;
+    padding: 0 20px;
+    background-color: #232f3e;
+    color: white;
+}
+
+.icon-box-sign-in i {
+    font-size: 24px;
+}
+
+.icon-box-sign-in p {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.sidebar-body {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+}
+
+.sidebar-section {
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.sidebar-section h3 {
+    padding: 0 20px;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.sidebar-item {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.sidebar-item:hover {
+    background-color: #eaeded;
+}
+
+.cross_box {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #131921;
+    border: 1px solid #555;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cross_box:hover {
+    outline: 1px solid white;
+}

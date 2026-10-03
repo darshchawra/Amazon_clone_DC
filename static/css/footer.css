@@ -1,0 +1,108 @@
+.amazon-footer {
+    background-color: #232f3e;
+    color: white;
+    margin-top: 500px;
+}
+
+.back-to-top {
+    background-color: #37475a;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    border-bottom: 1px solid #555;
+}
+
+.column {
+    width: 22%;
+}
+
+.column h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.column p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #ddd;
+}
+
+.footer-mid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 25px;
+    border-bottom: 1px solid #555;
+}
+
+.drop_down {
+    display: flex;
+    gap: 15px;
+}
+
+.drop {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid #888;
+    padding: 8px;
+}
+
+.drop select {
+    background-color: #232f3e;
+    color: white;
+    padding: 0 15px 0 0;
+}
+
+.footer-bottom {
+    background-color: #131a22;
+    padding: 30px;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.brand-item {
+    width: 130px;
+}
+
+.brand-item p {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.brand-item span {
+    font-size: 11px;
+    color: #aaa;
+}
+
+.legal {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #555;
+}
+
+.legal_links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 12px;
+}
+
+.legal p {
+    font-size: 12px;
+    margin-top: 10px;
+}
